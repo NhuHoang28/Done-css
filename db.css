@@ -1,0 +1,59 @@
+.head{
+display:flex;
+ align-items:center;
+ padding:5px 0px;
+ 
+}
+.head .meetup {
+flex-grow:1;
+font-family:script;
+font-size:35px;
+color:red;
+padding:5px;
+}
+.head .log-in a,.sign-up a {
+	padding:12px 12px;
+	color:#000;
+	text-decoration: none;
+}
+.head .log-in a:hover,.sign-up a:hover{
+	color:green;
+}
+
+.title{
+	display:flex;
+}
+.title .script{
+	flex-grow:1;
+	padding: 150px 20px 0px 380px;
+	font-size:60px;
+	font-family: arial;
+}
+.join-meeting{
+	padding:0px 0px;
+}
+.join-meeting a{
+ align-items:center;
+ padding: 15px 15px 15px 15px;
+ border-radius: 20px;
+ background-color: red;
+ font-size:20px;
+	text-decoration: none;
+	color:#FFF;
+}
+.join-meeting a:hover{
+	background-color: #da7a7a;
+}
+.title .picture{
+	flex-grow:1;
+	padding:100px 100px;
+}
+
+table,th,td{
+	border: 1px solid #eee;
+}
+
+.search{
+ border: 1px solid #eee;
+ border-radius: 20px;
+}
